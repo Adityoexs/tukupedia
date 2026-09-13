@@ -1,0 +1,60 @@
+# Git Ignore Rules
+
+node_modules/
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build outputs
+dist/
+build/
+bin/
+obj/
+*.exe
+*.dll
+*.so
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Backend
+backend/Tukupedia.API/bin/
+backend/Tukupedia.API/obj/
+backend/**/.vs/
+
+# Frontend
+frontend/.next/
+frontend/out/
+frontend/public/service-worker.js
+frontend/public/workbox-*.js
+
+# Database
+database/data/
+*.db
+
+# Cache
+.cache/
+*.cache
+
+# Testing
+coverage/
+.nyc_output/
+
+# Dependencies lock (optional - commit package-lock.json)
+# node_modules/
+
+# Docker
+.dockerignore
